@@ -1,13 +1,14 @@
-make sure you have docker installed try docker --v to check
-if you need to install docker use the following:
 
+if you need to install docker use the following:
+```
 cd ~/
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
-
+```
 
 on your home directory run:
 
+```
 git clone https://github.com/you55uf/raspquick.git
 cd raspquick
 docker compose up -d
